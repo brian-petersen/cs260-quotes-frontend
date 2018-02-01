@@ -22,7 +22,7 @@
     <b-container>
       <footer>
         <p>Site made by <a href="http://recruitbrian.com/">Brian Petersen</a></p>
-        <p>Source code available on <a href="#">GitHub</a></p>
+        <p>Source code available on <a href="https://github.com/brian-petersen/cs260-quotes-frontend">GitHub</a></p>
       </footer>
     </b-container>
   </div>
