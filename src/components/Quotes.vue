@@ -5,10 +5,10 @@
     <div class="quotes">
       <div class="quote" v-for="quote in quotes" :key="quote.id">
         <b-card>
-        <p class="text">{{ quote.text }}</p>
-        <p class="author" v-if="quote.author !== null">{{ quote.author }}</p>
-        <p class="author" v-else>Unknown</p>
-        <p class="submitted">{{ quote.submitted | formatDate }}</p>
+          <p class="text">{{ quote.text }}</p>
+          <p class="author" v-if="quote.author !== null">{{ quote.author }}</p>
+          <p class="author" v-else>Unknown</p>
+          <p class="submitted">{{ quote.submitted | formatDate }}</p>
         </b-card>
       </div>
     </div>
